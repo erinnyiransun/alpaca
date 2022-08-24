@@ -32,7 +32,7 @@ def sell(alpaca, symbol = 'BTC/USD', qty = 1):
         side = "sell",
         time_in_force = 'gtc')
     
-    print('Selled')
+    print('Sold')
     return
 
 
